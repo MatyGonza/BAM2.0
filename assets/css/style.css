@@ -111,16 +111,15 @@ header{
     ;
 
 }
-.container_card2{
+.container_card2{/*
     display: flex;
     flex-basis: 100%;
-    flex-flow: row wrap;
-
-    height: 75%;
+    flex-flow: row wrap;*/
+    height: 63%;
 }
 .card2{
-    width: 50%;
-    margin: 20px;
+    width: 100%;
+    height: 100%;
     border-radius: 10px;
     background:#fff;
     box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
@@ -147,7 +146,7 @@ header{
 }
 
 #Secciones{
-    display: inline;
+    display: block;
 }
 #blog{
     display: inline;
@@ -161,8 +160,7 @@ header{
 
 .blog_{
     display: flex;
-    flex-flow: row;
-    flex-wrap: wrap;
+    flex-flow: row wrap;
     justify-content: center;
     
 }
