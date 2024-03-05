@@ -18,3 +18,5 @@ hacer resposivo las tarjetas
 https://es.stackoverflow.com/questions/372383/alinear-como-responsive-contenedores-en-forma-de-tarjeta-html-y-css?rq=1
 
 https://fontawesome.com/,
+
+https://www.youtube.com/watch?v=lRLTYatc4Zc&list=PLxZFSXVyi7tS7TjDxN9s4RF0_uqFtNbCn
