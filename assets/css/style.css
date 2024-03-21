@@ -103,7 +103,7 @@ section{
 
 .section-info {
     display: flex;
-
+    flex-flow: row wrap;
     text-align: left;
   
 }
