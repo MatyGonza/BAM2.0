@@ -1,11 +1,52 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;}
+    box-sizing: border-box;
+    font-family: "Oooh Baby", cursive;
+    font-weight: 400;
+    font-style: normal;
+
+    
+}
+
+
+
+header{
+
+    text-align: center;
+    /*position: fixed;*/
+    background-color: beige;
+    width: 100%;
+}
+
+
+section{
+    background:#fff;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    max-width: 99%;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
+    
+}
+
+
+a{
+    text-decoration: none;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #000000;
+}
+
 
 a:hover{
     color: green;
     
+}
+
+
+.nav{
+    text-decoration: none;
 }
 
 
@@ -20,25 +61,353 @@ a:hover{
 
 }
 
-.button {
+
+/*HEADER*/
+
+
+
+.up_1{
+    padding: 1px;
+    background-color: rgb(255, 255, 90);
+}
+
+
+.nav_2{
+    padding: 20px;
+}
+
+
+
+/*PRIMERA SECCION*/
+
+
+.inicio_1{
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    
+}
+
+.contenedor_imagen_principal{
+    background:url("../media/imgs/cocinas-modernas-blancas.webp");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+    width: 100%;
+    height: 50vh;
+    border-radius: 10px;
+    
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+
+    
+}
+
+
+.plano_1{
+    padding-bottom: 20px;
+    background: linear-gradient(to left,rgb(255 255 255),rgba(25, 25, 25, 0.01));
+}
+
+.button_1 {
+    position: relative;
+    bottom: -5px;
+    padding:5px 50px;
+    border-radius: 5px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 90);
+    text-align: center;
+    font-size: 14px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
+    border: solid 0.2px;
+}
+
+.button_1:hover {
+    background-color: hsl(125, 65%, 53%);
+    color: #000000;
+}
+
+
+/*SEGUNDA SECCION*/
+
+.plano_2{
+    background-color: beige;
+    padding: 20px;   
+}
+
+
+
+
+.blog_2{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    background-color: rgb(132, 155, 124);
+    
+}
+
+
+
+
+.container_card{
+    width: 300px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    max-width: 1100px;
+    margin: auto
+    ;
+
+}
+
+
+.card{
+    width: 100%;
+    margin: 20px;
+    border-radius: 10px;
+    padding-bottom: 10px;
+    background:beige;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+}
+
+.card img{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    width: 100%;
+    height: 210px;
+}
+
+.plano_2_1{
+
+}
+
+
+/*TERCERA SECCION*/
+
+.plano_3{
+    padding: 30px;
+    background-color:beige;   
+}
+
+
+.button_3{
+    padding: 10px 150px;
+    border-radius: 5px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 90);
+    text-align: center;
+    font-size: 14px;
+
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
+    border: solid 0.2px;
+}
+
+.button_3:hover {
+    background-color: hsl(125, 65%, 53%);
+    color: #000000;
+}
+
+
+/*CUARTA SECCION*/
+.contenido_4{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+
+}
+
+.blog_4{
+    
+    box-sizing:border-box;
+    width: 50%;
+}
+
+.blog_4 img{
+    width: 100%;
+    height: 100%;
+}
+
+.div-info{
+    display: flex;
+    align-items: center;
+    background-color: rgb(0, 0, 0);
+    width: 50%;
+}
+
+.info{
+
+    /*position: relative;*/
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+    color: yellow;
+    font-size: 20px;
+    width: 100%;
+}
+
+.info li{
+    font-size: 1.4rem;
+}
+
+
+/*QUINTA SECCION*/
+
+
+#blog{
+    display: inline;
+}
+
+.plano_5{
+    background-color: beige; 
+    padding: 15px;  
+}
+
+
+.blog_5{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    background-color: rgb(132, 155, 124);
+    
+}
+
+.container_card_5{
+    
+    width: 300px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    max-width: 1100px;
+    margin: auto;
+
+}
+
+
+.card_5{
+    background: beige;
+    border-radius: 10px;
+    width: 100%;
+    margin: 20px;
+    backgroun:beige;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+}
+
+.card_5 img{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    width: 100%;
+    height: 210px;
+}
+
+
+.plano_5_1{
+    background-color: beige;
+    padding-bottom: 10px;
+    border-bottom-right-radius:10px ;
+    border-bottom-left-radius:10px ;
+
+}
+
+.button_5 {
     padding: 5px 10px;
     border-radius: 5px;
     color: rgb(0, 0, 0);
     background-color: rgb(255, 255, 90);
     text-align: center;
     font-size: 14px;
-    border: none;
-    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
+    border: solid 0.2px;
 }
 
-.button:hover {
+.button_5:hover {
     background-color: hsl(125, 65%, 53%);
     color: #000000;
 }
 
+
+
+
+/*SEXTA SECCION*/
+
+.plano_6{
+    background-color: beige;   
+    padding: 30px;
+}
+
+.masisa{
+    background: url("https://argentina.masisa.com/wp-content/themes/themecardumen/assets/img/logo-slogan.png");
+}
+
+
+
+/*FOOTER*/
+
+
+.negro_footer{
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+
+.info_{
+    text-align: center;
+    color: yellow;
+    display: inline-flex;
+    
+}
+
+/*SEGUNDA SECCION DE FOOTER*/
+
+.foot{
+    display: inline-flex;
+}
+
+
+
+.nav_footer{
+
+    text-decoration: none;
+}
+
+
+.nav_footer:hover{
+
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: rgb(0, 0, 0);
+    background-color: hsl(125, 65%, 53%);
+    text-align: center;
+    border: solid;
+
+}
+
+
+/*TERCERA SECCION DEL FOOTER*/
+
+
 .up{
     background-color: rgb(255, 255, 90);
 }
+
+
+
+/*________________________________________________*/
+
+
+.inicio{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+
+    
+}
+
+
+.plano_{
+    background-color: beige;   
+}
+
+
 .ap{
     text-decoration: none;
     background-color: yellow;
@@ -46,17 +415,10 @@ a:hover{
     border-radius: 5px;
     border-color: black;
 }
-.nav{
-    
-    text-decoration: none;
-}
+
 .negro{
     background-color: rgb(0, 0, 0);
     
-}
-.negro_{
-    background-color: rgb(0, 0, 0);
-    text-align: center;
 }
 
 #inicio_{/*
@@ -67,13 +429,7 @@ a:hover{
     height: 500px;
     text-align: center;*/
 }
-.inicio{
-    width: 100%;
-    height: 100%;
-    text-align: center;
 
-    
-}
 
 .picture1{
     width: 400px;
@@ -90,27 +446,6 @@ a:hover{
 
 
 }
-section{
-    background:#fff;
-    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
-    text-align: center;
-    max-width: 99%;
-    margin-left: auto;
-    margin-right: auto;
-    box-sizing: border-box;
-    
-}
-
-.section-info {
-    display: flex;
-    flex-flow: row wrap;
-    text-align: left;
-  
-}
-
-header{
-    text-align: center;
-}
 
 .plano{  
     text-align: center;
@@ -118,46 +453,13 @@ header{
     height: 400px;
 }
 
-.plano_{
-    background-color: beige;   
-}
 
-.section_parte_cuatro{
-    max-width: 99%;
-    box-sizing: content-box;
-}
-.section_parte_cuatro img{
-    width: 100%;
-    height:600px;
-}
 
-.info{
-    position: relative;
-    background-color: rgb(0, 0, 0);
-    text-align: center;
-    color: yellow;
-    font-size: 20px;
-    
-}
-.info_{
-    text-align: center;
-    color: yellow;
-    display: inline-flex;
-    
-}
 
-.container_card{
 
-    width: 300px;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    max-width: 1100px;
-    margin: auto
-    ;
 
-}
+
+
 .container_card2{/*
     display: flex;
     flex-basis: 100%;
@@ -171,20 +473,6 @@ header{
     background:#fff;
     box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
 }
-.card{
-    width: 100%;
-    margin: 20px;
-    border-radius: 10px;
-    background:#fff;
-    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
-}
-.card img{
-    width: 100%;
-    height: 210px;
-}
-.foot{
-    display: inline-flex;
-}
 
 .img{
     width: 30px;
@@ -195,22 +483,8 @@ header{
 #Secciones{
     display: block;
 }
-#blog{
-    display: inline;
-}
 
-header{
-    position: fixed;
-    background-color: beige;
-    width: 100%;
-}
 
-.blog_{
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
-    
-}
 
 .form{
     display: block;

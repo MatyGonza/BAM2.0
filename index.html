@@ -6,7 +6,11 @@
 
     <link rel="stylesheet" href="./assets/css/reset.css">
     <link rel="stylesheet" href="./assets/css/style.css">
-
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oooh+Baby&display=swap" rel="stylesheet">
+    
     <!-- Metaetiquetas de posicionamiento -->
     <meta property="og:title" content="Tu Mueble a Medida">
     <meta property="og:description" content="Diseñamos, y Realizamos tus muebles a medida">
@@ -32,7 +36,7 @@
     <header>
         <section>
             <!--Informacion de contacto-->
-            <div class="up">
+            <div class="up_1">
                 <i class="fa-solid fa-phone"></i>
                 <a class="nav" href="tel:+1137799588">1137799588</a>
                 <i class="fa-solid fa-envelope"></i>
@@ -43,7 +47,7 @@
                 <a class="nav" href="http://www.instagram.com">Instagram</a>
     
             </div>
-            <div>
+            <div class="nav_2">
                 <!--Menu de la pagina-->
                 <!--FALTA: Agregar logo de Marca, al lado del Navbar. Arreglar enlaces en la page de github no funcionan-->
                 <nav >
@@ -63,19 +67,22 @@
         <!--Primera seccion de pagina-->
         <section>
             <!--Inicio de la pagina principal, Presentacion de pagina-->
-            <article class="inicio">
-                <br>
-                <br>
-                <div class="plano_">
-                    <!--Informacion -->
-                    <h3>Diseño y Fabricacion de muebles </h3>
-                    <h5>Fabricamos muebles a medida optimizamos espacios acordes a tus necesidades</h5>
-                </div>
+            <article class="inicio_1">
+                
                 <!--Contenedor, de la imagen-->
-                <div class="container_card2">
-                    <div class="card2">
-                        <img src="./assets/media/imgs/cocinas-modernas-blancas.webp" alt="" width="100%" height="100%">
-                    </div>
+                <div class="contenedor_imagen_principal">
+
+
+                    <div class="plano_1">
+                        <!--Informacion -->
+                        <h3>Diseño y Fabricacion de muebles </h3>
+                        <h5>Fabricamos muebles a medida optimizamos espacios acordes a tus necesidades</h5>
+                        
+                        <div>
+                            <button class="button_1">ver tienda</button>
+                        </div>
+                    </div> 
+                    
                 </div>
             </article>
         </section>
@@ -85,8 +92,8 @@
             <!--Mostramos nuestros productos que realizamos por medio de tarjetas
             FALTA: Realizar una pagina de productos, donde se relacione con un enlace y la pagina donde muestre todos los productos relacionados para luego mostrarlos por medio de imagenes, o poder realizar un e-comerce-->
             <article id="Secciones" >
-                <h3 class="plano_">Creamos tu espacio</h3>
-                <div class="blog_">
+                <h3 class="plano_2">Creamos tu espacio</h3>
+                <div class="blog_2">
                     
                     <!--card fotos de muebles-->
                     <div class="container_card">
@@ -98,7 +105,7 @@
                         <div>
                         <!-- 
                         --FALTA: Realizar un enlace -->
-                            <h3 class="plano_">Cocinas</h3>
+                            <h3 class="plano_2_1">Cocinas</h3>
                         </div>
                     </div>
                 </div>
@@ -111,7 +118,7 @@
                         </picture>
                         <div>
                             <!--FALTA: Realizar un enlace -->
-                            <h3 class="plano_">Placards</h3>
+                            <h3 class="plano_2_1">Placards</h3>
                         </div>
                     </div>
                 </div>
@@ -123,7 +130,7 @@
                         </picture>
                         <div>
                             <!--FALTA: Realizar un enlace-->
-                            <h3 class="plano_">Salas</h3>
+                            <h3 class="plano_2_1">Salas</h3>
                         </div>
                     </div>
                 </div>
@@ -136,99 +143,101 @@
         <section >
             <!--Mostros informacion , y tenemos un enlace de contacto donde nos lleva a un formulario de contacto-->
             <article>
-                <div class="plano_">
+                <div class="plano_3">
                     <h2>Diseño y planos</h2>
                     <h3>Nos esforzamos por brindarte una experiencia de compra segura y confiable</h3>
                     <h5>Si tenes alguna duda o inquietud sobre nuestro producto o el proceso de compras no dudes en contactarnos</h5>
-                    <br>
-                    <div>
-                        <!--FALTA: Dar forma de Boton al enlace -->
-                        <a class="button" href="./assets/pages/contacto.html">Contactar</a>
-                    </div>
-                    <br>
                 </div>
+                <br>
+                <div>
                     <picture >
                         <img src="./assets/media/imgs/plano.jpg" alt="" width="60%">
                     </picture>
+                </div>
+                <br>
+                <div>
+                        <!--FALTA: Dar forma de Boton al enlace -->
+                        <a class="button_3" href="./assets/pages/contacto.html">Contactar</a>
+                </div>
+                <br>
             </article>
         </section>
             <hr>
         <!--Cuarta seccion de la pagina Mostramos informacion -->
-        <section class="section_parte_cuatro">
-            <article class="negro" >
-        
-        <section class="section-info">
-                    <!--Fondo negro-->
+        <section class="contenido_4">
             
-            <div>
-                <img src=".//assets/media/imgs/las-cocinas-modernas.webp" alt=""    >
-            
-            </div>
-            
-                <!--Foto de cocina-->
-            
-            <div class="div-info">
-                <ul class="info">
-                    <li> Creamos mobiliario conforme a tus necesidades</li>
-                            <!--FALTA: Agregar 4 logos al lado de cada Linea -->
-                    <li>Asesoria tecnica</li>
-                    <li>Compra segura</li>
-                    <li>Mejores tiempo de entrega</li>
-                    <li>Diseño 3D </li>
-                        
-                </ul>
+                <div class="blog_4">
+                    <img src=".//assets/media/imgs/las-cocinas-modernas.webp" alt="">
+                </div>
+                
+                    <!--Foto de cocina-->
+                
+                <div class="div-info">
+                    <ul class="info">
+                        <li> Creamos mobiliario conforme a tus necesidades</li>
+                                <!--FALTA: Agregar 4 logos al lado de cada Linea -->
+                        <li>Asesoria tecnica</li>
+                        <li>Compra segura</li>
+                        <li>Mejores tiempo de entrega</li>
+                        <li>Diseño 3D </li>
+                            
+                    </ul>
 
+                
+                </div>
             
-            </div>
             
         </section>
-        
+
         <hr>
         <!--Quinta seccion de la pagina Mostramos uno enlaces, donde nos llevan a otros blogs, para dar informacion utuil a la hora de elegir algun producto nuestro, por medio de 3 tarjetas -->
         <section >
             <article id="blog">
 
-                <h3 class="plano_">Blog</h3>
+                <h3 class="plano_5">Blog</h3>
 
-                <div class="blog_">
+                <div class="blog_5">
                     <!--Carta con una foto una descripcion y un enlace en un boton de ver mas-->
-                    <div class="container_card">
-                        <div class="card">
+                    <div class="container_card_5">
+                        <div class="card_5">
                             <figure>
                                 <img src="assets/media/imgs/cocinas-modernas-sencillas-2019-istock.webp" alt="">
                             </figure>
-                            <div class="plano_">
+                            <div class="plano_5_1">
                                 <h6>Como elegir el tamaño adecuado del sofa</h6>
                                 <!--FALTA: Dar forma de boton -->
-                                <a class="button" href="https://www.si-divani.com/blogs/blog-si-divani/que-tamano-de-sofa-elegir-en-relacion-a-tu-espacio">Leer mas</a>
+                                <br>
+                                <a class="button_5" href="https://www.si-divani.com/blogs/blog-si-divani/que-tamano-de-sofa-elegir-en-relacion-a-tu-espacio">Leer mas</a>
                             </div>
                         </div>
                     </div>
 
                     <!--Carta con una foto una descripcion y un enlace en un boton de ver mas-->
-                    <div class="container_card">
-                        <div class="card">
+                    <div class="container_card_5">
+                        <div class="card_5">
                             <figure>
                                 <img src="assets/media/imgs/cocinas-modernas-salmon-instagram-delta-cocinas.webp" alt="">
                             </figure>
-                            <div class="plano_">
+                            <div class="plano_5_1">
                                 <h6>Como decorar tu hogar con muebles de madera</h6>
                                 <!--FALTA: Dar forma de boton -->
-                                <a class="button" href="https://blog.homedressing.mx/consejos-profesionales-para-decorar-hogar-con-madera/">Leer mas</a>
+                                <br>
+                                <a class="button_5" href="https://blog.homedressing.mx/consejos-profesionales-para-decorar-hogar-con-madera/">Leer mas</a>
                             </div>
                         </div>
                     </div>
 
                     <!--Carta con una foto una descripcion y un enlace en un boton de ver mas-->
-                    <div class="container_card">
-                        <div class="card">
+                    <div class="container_card_5">
+                        <div class="card_5">
                             <picture>
                                 <img src="assets/media/imgs/cocinas-modernas-rosa-instagram-minto-decor.webp" alt="">
                             </picture>
-                            <div class="plano_">
+                            <div class="plano_5_1">
                                 <h6>Como elegir tu mueble perfecto para tu hogar</h6>
                                 <!--FALTA: Dar forma de boton -->
-                                    <a class="button" href="https://cuorebello.es/blog/6-consejos-para-elegir-muebles/">Leer mas</a>
+                                <br>
+                                    <a class="button_5" href="https://cuorebello.es/blog/6-consejos-para-elegir-muebles/">Leer mas</a>
                             </div>
                         </div>
                 </div>                
@@ -240,13 +249,16 @@
         <section>
             <!--Mustra Nustros proveedores con los que trabajamos, en nustros productos-->
             <article>
-                <h3>Nuestros proveedores</h3>
+                <h3 class="plano_6">Nuestros proveedores</h3>
                 <!--FALTA: Ingresar los 3 logos de cada marca con un enlace que lleve a sus paginas oficiales-->
                 <!--3 Logos de Marcas relacionadas a la industria del mueble con enlace a sus respectivas paginas                -->
-                <ul style="display: inline;">
-                    <li style="display: inline;">Masisa</li>
-                    <li style="display: inline;">Eurohard</li>
-                    <li style="display: inline;">Egger</li>
+                <ul>
+                    <div class="masisa">
+                        
+                    </div>
+                    <li class="masisa">Masisa</li>
+                    <li>Eurohard</li>
+                    <li>Egger</li>
                     
                 </ul>
             </article>
@@ -256,7 +268,7 @@
     <footer>
         <!--Pie de pagina de nuestra Pagina , donde tenemos informacion de contacto, y tambien un mapa de nustra pagina, -->
         <section >
-            <article class="negro_">
+            <article class="negro_footer">
 
                 <!--FALTA: Colocar logos-->
                 <i class="fa-solid fa-circle-check" style="color: #ffff5a;"></i>
@@ -275,18 +287,18 @@
 
                 <div class="foot"><nav>
                     <h6>Mapa del sitio</h6>
-                    <a class="nav" href="#inicio"> Inicio</a>
-                    <a class="nav" href="./assets/pages/nosotros.html">Nosotros</a>
-                    <a class="nav" href="./assets/pages/productos.html">Productos</a>
-                    <a class="nav" href="#blog">Blog</a>
-                    <a class="nav" href="./assets/pages/contacto.html">Contacto</a>
+                    <a class="nav_footer" href="#inicio"> Inicio</a>
+                    <a class="nav_footer" href="./assets/pages/nosotros.html">Nosotros</a>
+                    <a class="nav_footer" href="./assets/pages/productos.html">Productos</a>
+                    <a class="nav_footer" href="#blog">Blog</a>
+                    <a class="nav_footer" href="./assets/pages/contacto.html">Contacto</a>
                 </nav></div>
                 <div><!--Informacion de contacto con sus logos-->
                     <h6>Contactenos</h6> 
                     <i class="fa-solid fa-phone"></i>
-                    <a class="nav" href="tel:+1137799588">1137799588</a>
+                    <a class="nav_footer" href="tel:+1137799588">1137799588</a>
                     <i class="fa-solid fa-envelope"></i>
-                    <a  class="nav" href="mailto:gonzalezmatias877@gmail.com">gonzalezmatias877@gmail.com</a>
+                    <a  class="nav_footer" href="mailto:gonzalezmatias877@gmail.com">gonzalezmatias877@gmail.com</a>
                     <h6>Ubicacion</h6>
                 </div>
             </article>
